@@ -1,0 +1,61 @@
+===============================================================================
+MASTER PROJECT MAP: THE GOLDBACH HELIX
+===============================================================================
+Author: Dylan Shay
+Project Dates: January 13, 2026 - January 15, 2026
+Framework: Lean 4 Formal Verification
+Location: D:\LeanProjects\Goldbach-Helix
+===============================================================================
+
+[ NAVIGATION GUIDE ]
+If you are new to this repository, start with FOLDER #5. The folders are 
+numbered in the order they were built, starting from the initial data recovery 
+on January 13th to the final verified helix on January 15th.
+
+1. Goldbach_BaseCamp1_9010_Verified
+   - STATUS: Initial structural framing.
+   - FOCUS: Resolving type-casting between Natural, Real, and Complex numbers 
+     to establish the mathematical baseline.
+
+2. Goldbach_BaseCamp2_Weyl_Verified
+   - STATUS: Secondary reinforcement.
+   - FOCUS: Integrating the Weyl Inequality to bound the "Minor Arc" wind 
+     loads and verify noise decay.
+
+3. Goldbach_BaseCamp3_Major_Verified
+   - STATUS: Primary load-bearing verification.
+   - FOCUS: Formally proving the signal strength (Lower Bound) of the Major 
+     Arcs to ensure structural headroom.
+
+4. Goldbach_Summit_Plus_Harmonic_Verified
+   - STATUS: High-fidelity signal tuning.
+   - FOCUS: Implementing Riemann Weighting (Log-damping) and verifying the 
+     geometric Phase Flip at alpha = 1/2.
+
+5. Goldbach_Summit_Helix_Final_Verified (*** START HERE ***)
+   - STATUS: FINAL AS-BUILT MODEL.
+   - FOCUS: The "Strand Integrity" condition. This version re-frames the noise 
+     as a complementary DNA-style strand that is geometrically tethered to the 
+     prime signal via Parseval's Identity.
+
+
+[ TECHNICAL INSTRUCTIONS FOR VS CODE / LEAN 4 ]
+To verify any iteration in Lean 4:
+
+1. Enter the desired version folder (e.g., Goldbach_Summit_Helix_Final_Verified) 
+  .
+   
+2. Open the internal "Goldbach_Final" folder in VS Code.
+
+3. The Lean extension will automatically detect the 'lakefile.toml' and 
+   'lake-manifest.json'. It will begin the verification of 'GoldbachFinal.lean' 
+   instantly.
+
+4. Check the Lean Infoview: "Zero Red Errors" indicates a verified structural 
+   proof.
+
+===============================================================================
+"A counter-example to Goldbach would be a lethal mutation in the number line. 
+The helix logic proves the structure is self-correcting."
+-- Dylan Shay
+===============================================================================
